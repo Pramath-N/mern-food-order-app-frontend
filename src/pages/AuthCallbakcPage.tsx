@@ -1,4 +1,4 @@
-import { useCreateUser } from "@/api/User.api";
+import { useCreateMyUser } from "@/api/User.api";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const AuthCallbackPage = () => {
     const navigate = useNavigate();
     const {user} = useAuth0();
-    const {createUser} = useCreateUser();
+    const {createUser} = useCreateMyUser();
 
     const hasCreated = useRef(false);
 

@@ -45,9 +45,9 @@ export const useGetMyUser = () => {
     return{currentUser, isLoading}
 }
 
-export const useCreateUser = () => {
+export const useCreateMyUser = () => {
     const { getAccessTokenSilently } = useAuth0();
-    const createUserRequest = async (user: CreateUserRequest) => {
+    const createMyUserRequest = async (user: CreateUserRequest) => {
         const accessToken = await getAccessTokenSilently();
         const response = await fetch(`${API_BASE_URL}/api/v1/my/user`, {
             method: 'POST',
@@ -67,7 +67,7 @@ export const useCreateUser = () => {
         isLoading,
         isError,
         isSuccess
-    } = useMutation(createUserRequest);
+    } = useMutation(createMyUserRequest);
     
     return {
         createUser,
