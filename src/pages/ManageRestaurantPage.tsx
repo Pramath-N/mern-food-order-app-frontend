@@ -1,4 +1,4 @@
-import { useCreateMyRestaurant, useGetMyRestaurant, useUpdateMyRestaurant } from "@/api/Restaurant.api";
+import { useCreateMyRestaurant, useGetMyRestaurant, useUpdateMyRestaurant } from "@/api/MyRestaurant.api";
 import ManageRestaurantForm  from "@/forms/manageRestaurantForm/ManageRestaurantForm"
 
 function ManageRestaurantPage() {

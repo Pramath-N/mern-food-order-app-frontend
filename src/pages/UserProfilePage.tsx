@@ -1,4 +1,4 @@
-import { useGetMyUser, useUpdateUser } from "@/api/User.api"
+import { useGetMyUser, useUpdateUser } from "@/api/MyUser.api"
 import UserProfileForm from "@/forms/userProfileForm/UserProfileForm"
 
 function UserProfilePage() {
