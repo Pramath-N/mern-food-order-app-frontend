@@ -1,4 +1,4 @@
-import { cuisineList } from "@/config/restaurants-options";
+import { cuisineList } from "@/config/restaurants-options.config";
 import { Check, ChevronDown, ChevronUp } from "lucide-react";
 import { ChangeEvent } from "react";
 import { Button } from "./ui/button";

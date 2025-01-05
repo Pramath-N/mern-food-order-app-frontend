@@ -9,7 +9,6 @@ function ProtectedRoute() {
         return <div>Loading...</div>; 
     }
 
-    console.log(isAuthenticated)
     // Navigate to home page if the user is not authenticated
     if (!isAuthenticated) {
         return <Navigate to="/" replace />;
