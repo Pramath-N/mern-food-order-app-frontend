@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 import { MenuItem as MenuItemType } from "@/types";
 import CheckoutButton from "@/components/CheckoutButton";
 import { UserFormData } from "@/forms/userProfileForm/UserProfileForm";
-import { useCreateCheckoutSession } from "@/api/order.api";
+import { useCreateCheckoutSession } from "@/api/Order.api";
 export type CartItem = {
   _id: string;
   name: string;
