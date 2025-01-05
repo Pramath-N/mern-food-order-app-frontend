@@ -73,6 +73,7 @@ function SearchPage() {
     }));
   };
 
+
   return (
     <div className="grid grid-col-1 lg:grid-cols-[250px_1fr] gap-5 px-4">
       <div id="cuisiens-left">
